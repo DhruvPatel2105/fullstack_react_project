@@ -1,0 +1,21 @@
+{
+  "name": "group11",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "babel src --presets @babel/react --out-dir public",
+    "start": "nodemon app.js"
+  },
+  "author": "dhruv vatsal",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server-express": "^3.10.2",
+    "express": "^4.18.1",
+    "graphql": "^16.6.0",
+    "mongoose": "^6.6.4",
+    "nodemon": "^2.0.20"
+   
+  }
+}
