@@ -1,0 +1,3 @@
+[submodule "client"]
+	path = client
+	url = https://github.com/DhruvPatel2105/fullstack_react_client.git
